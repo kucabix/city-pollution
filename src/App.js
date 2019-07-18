@@ -68,7 +68,7 @@ class App extends React.Component {
   // rendering Header, Form with react-select input, and CityAccordion with WikiData components
   render(){
     const {citiesAQ, currentCountry, isLoading} = this.state
-    const accordionClass = isLoading ? 'accordion-loading':'accordion'
+    const accordionClass = isLoading ? 'accordion-loading' : 'accordion'
     return (
       <div className='main-container'>
         <Header />

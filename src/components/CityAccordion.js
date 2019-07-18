@@ -14,12 +14,12 @@ const CityAccordion = props => {
   const accordionContent = props.citiesArray.map(item => {
       return(
         <AccordionItem key={item}>
-         <AccordionItemHeading>
-             <AccordionItemButton>
-                 {item}
-             </AccordionItemButton>
-         </AccordionItemHeading>
-         <AccordionItemPanel>
+          <AccordionItemHeading>
+            <AccordionItemButton>
+              {item}
+            </AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
              <WikiData wikiItem={item} />
          </AccordionItemPanel>
         </AccordionItem>
